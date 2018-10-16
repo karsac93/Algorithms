@@ -69,7 +69,7 @@ class MergeArrays:
             self.heap[smallest] = node
             self.CheckTree(smallest)
 
-
+//Creating an object of the above class and calling merge method
 mergeArrays = MergeArrays()
 k = [[1, 2, 3, 4], [7, 8, 9, 10], [5, 6, 11, 12]]
 print(mergeArrays.merge(k))
